@@ -1,21 +1,5 @@
 class Solution {
-    // public int binarySearch(int[] nums, int low, int high, int target)
-    // {
-    //     int mid;
-    //     while(low<=high)
-    //     {
-    //         mid=(low+high)/2;
-    //         if(nums[mid]== target)
-    //         return mid;
-    //         else if(nums[mid]>target)
-    //         {
-    //             low=mid+1;
-    //         }
-    //         else
-    //         high=mid-1;
-    //     }
-    //     return -1;
-    // }
+   
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         int i, j, twosum = 0, left = 0, right = 0;
